@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>gimail</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+
+    <header>
+
+        <img src="resources/logo.jpg" alt="">
+        <span class="big white">Gmail</span>
+
+    </header>
+
+
+    <section class="box">
+
+        <input type="text" name="" value="" placeholder="Search">
+        <button type="button" name="button">Vai!</button>
+        <p class="big white">You have <span id="unread"></span> unread</p>
+        <div id="trashbin" onclick="trashMyMail()"></div>
+
+    </section>
+
+    <main>
+
+      <div class="mail">
+        <input type="checkbox" onchange="check(0)" value="">
+        <span class="fav">&#9734;</span>
+        <span class="object">Oggetto della mail</span>
+        <span class="mailContent">testo della mail blablablab lbalblab </span>
+      </div>
+
+
+      <div class="mail">
+        <input type="checkbox" name="" onchange="check(1)" value="">
+        <span class="fav">&#9734;</span>
+        <span class="object">Oggetto della mail </span>
+        <span class="mailContent">testo della mail blabla</span>
+      </div>
+
+
+      <div class="mail">
+        <input type="checkbox" name="" onchange="check(2)" value="">
+        <span class="fav">&#9734;</span>
+        <span class="object">Oggetto </span>
+        <span class="mailContent">testo della mail </span>
+      </div>
+
+      <div class="mail">
+        <input type="checkbox" name="" onchange="check(3)" value="">
+        <span class="fav">&#9734;</span>
+        <span class="object">Oggetto della mail</span>
+        <span class="mailContent">testo della mail blablablabla</span>
+      </div>
+
+      <div class="mail">
+        <input type="checkbox" name="" onchange="check(4)" value="">
+        <span class="fav">&#9734;</span>
+        <span class="object">Oggetto</span>
+        <span class="mailContent">testo della mail</span>
+      </div>
+
+    </main>
+
+    <footer>
+
+      <span class="big white">Gmail</span>
+      <span class="white"><i>powered by booleans</i></span>
+
+    </footer>
+
+    <!-- script -->
+    <script src="script/script.js" charset="utf-8"></script>
+
+  </body>
+</html>

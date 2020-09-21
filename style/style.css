@@ -1,0 +1,113 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+}
+
+header{
+  margin-top: 10px;
+}
+
+body{
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+  width:50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.mail input{
+  margin-left: 5px;
+}
+
+.mail input:hover{
+  cursor:pointer;
+}
+
+main{
+  margin-top: 15px;
+  border-bottom: white solid 2px;
+  padding-bottom: 15px;
+}
+
+footer{
+  position:absolute;
+  left:50%;
+  transform: translate(-50%);
+}
+
+img{
+  border-radius: 10px;
+  max-width: 140px;
+  max-width: 100px;
+}
+
+.white{
+  color:white;
+}
+
+.mail{
+  border-bottom:solid 1px black;
+  background:lightgrey;
+  transition: all 0.4s linear;
+}
+
+.mailContent{
+  position:absolute;
+  left:40%;
+}
+
+.box p{
+  padding-top: 10px;
+}
+
+.selected{
+  background-color:white;
+  border: yellow .2px solid;
+}
+
+.big{
+  font-size: 30px;
+}
+
+#trashbin{
+  width:25px;
+  height:32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url('../resources/trashbin.png');
+  position: absolute;
+  right:10px;
+  bottom:10px;
+  transition: all linear .3s;
+}
+
+#trashbin:hover{
+  transform:scale(1.7);
+  cursor: pointer;
+}
+
+.box{
+  border-top: 2px solid white;
+  border-bottom:2px solid white;
+  padding:10px 0 10px 0;
+  position:relative;
+}
+
+.deleting{
+opacity:0;
+}
+
+.fav:hover{
+cursor:pointer;
+}
+
+.yellow{
+  color:yellow;
+}
+
+#unread{
+  background:yellow;
+  padding:6px 12px;
+  border-radius: 100%;
+  color:black;
+}
