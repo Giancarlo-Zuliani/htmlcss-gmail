@@ -5,11 +5,11 @@ var unread = document.querySelector('#unread');
 //scrive nel documento il numeor di mail non lette
 unread.textContent = unreadMail
 
+var checkbox= document.querySelectorAll('input[type="checkbox"]')
 
 //funzione per cambiare stile alle mail selezionate tramite checkbox
 function check(x){
-  let selected = document.querySelectorAll('.mail');
-  selected[x].classList.toggle('selected')
+  checkbox[x].parentElement.classList.toggle('selected')
 }
 
 //funzione per eliminare le mail dalla lista e aggiorna il counter della mail non lette
